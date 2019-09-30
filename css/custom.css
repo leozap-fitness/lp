@@ -1,0 +1,267 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+    font-size: 1.6em;
+}
+.bg-all {
+    background-color: #ffffff;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.onefit-nav li a{
+    color: #000;
+}
+
+.about-message{
+    font-size: 2.1rem;
+}
+
+.navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+
+.navbar-white .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.through {
+    text-decoration: line-through;
+}
+
+
+.main-logo-background img{
+    max-width: 250px;
+    margin: auto;
+    display: block;   
+}
+
+.main-logo-text-background {
+    margin-top: 20px;
+}
+
+.main-logo-text-background img{
+    max-width: 2396px;
+    margin: auto;
+    display: block; 
+}
+
+.main-background {
+    width: 100%;
+    height: 0;
+    padding-top: calc(984 / 1980 * 100%);
+    background: url(../images/symbols-main_photo.png) center center / cover no-repeat;
+}
+
+#page-top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: #000;
+    opacity: 0.8;
+    border-radius: 50%;
+    z-index: 999999999999999999;
+}
+
+#page-top a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+#page-top a::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f106';
+    font-size: 2.5rem;
+    color: #ffde00;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.price-background img{
+    max-width: 800px;
+    margin: auto;
+    display: block;   
+}
+
+.register-background img{
+    max-width: 500px;
+    margin: auto;
+    display: block;   
+}
+
+.mission {
+    font-size: 3.2rem;
+}
+
+.vision {
+    max-width: 882px;
+    font-size: 2.1rem
+}
+
+.vision-detail {
+    padding: 16px 10px 0 10px;
+    /*width: 240px;*/
+}
+
+#onefit {
+    margin-top: 100px;
+}
+#onefit-message {
+    background: #EBEBEB;
+    max-width: 1000px;
+}
+.onefit-message {
+    font-size: 2.4rem;
+}
+
+.onefit-lead-message {
+    font-size: 2.1rem;
+    line-height: 48px;
+}
+
+.trainer-name {
+    font-size: 3.6rem;
+}
+
+.card-member-text {
+    font-size: 2.1rem;
+}
+
+.trainers {
+    max-width: 1000px;
+}
+
+#page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    background: #3f98ef;
+    opacity: 0.6;
+    border-radius: 50%;
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+  }
+  #page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f102';
+    font-size: 2.5rem;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+
+.mission-font {
+    font-size: 2.4rem;
+}
+
+.vision-num {
+    font-size: 3.6rem;
+}
+
+.vision-title {
+    padding-top: 29px;
+    font-size: 1.8rem;
+}
+.vision-col{
+    /*background-color: #EBEBEB;*/
+    
+}
+
+.vision-col .card {
+    background-color: #EBEBEB !important;
+    min-height: 260px;
+}
+
+.member-title {
+    font-size: 2.4rem;
+}
+
+.member-body {
+    max-width: 600px;
+    margin-left: 24px;
+}
+
+#trainer {
+    margin-bottom: 146px;
+}
+
+.onefit-lead {
+    font-size: 1.8rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 52.5%;
+    }
+    .navbar-toggler-icon {
+        font-size: 15px;
+    }
+    .main-logo-background {
+        margin-top: 55px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 58.5%;
+    }
+    .navbar-toggler-icon {
+        font-size: 15px;
+    }
+    .main-logo-background {
+        margin-top: 45px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 62.5%;
+    }
+}
